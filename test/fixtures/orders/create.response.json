@@ -1,0 +1,10 @@
+{
+  "success": true,
+  "data": {
+    "order_id": "order-with-shopping-cart",
+    "payment_url": "https://testpayv2.multisafepay.com/connect/823JA0LfzAwi2euuxdahOf6ew49hCU4dWfA/?lang=nl_NL",
+    "session_id": "823JA0LfzAwi2euuxdahOf6ew49hCU4dWfA",
+    "events_token": "eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MjQ1MTAxNzIsImdydCI6WyJtYnVzOnNlc3Npb24ub3JkZXIiLCJtYnVzOnNlc3Npb24ucXIiXSwicGlkIjoiODIzSkEwTGZ6QXdpMmV1dXhkYWhPZjZldzQ5aENVNGRXZkEiLCJzdWIiOiJwciJ9.nYcxLQ9YcURWX1VcdinUIs8uy9Yw0RiUk_OCaGL3NHY",
+    "events_url": "wss://testapi.multisafepay.com/events/"
+  }
+}

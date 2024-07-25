@@ -1,0 +1,84 @@
+{
+  "success": true,
+  "data": {
+    "amount": 1200,
+    "amount_refunded": 0,
+    "completed": "2024-07-25T14:28:41",
+    "costs": [
+      {
+        "amount": 0.6,
+        "description": "2.9 % For MasterCard Transactions (min 0.6)",
+        "transaction_id": 10133300,
+        "type": "SYSTEM"
+      }
+    ],
+    "created": "2024-07-25T14:28:41",
+    "currency": "EUR",
+    "custom_info": {
+      "custom_1": null,
+      "custom_2": null,
+      "custom_3": null
+    },
+    "customer": {
+      "address1": null,
+      "address2": null,
+      "city": null,
+      "country": null,
+      "country_name": null,
+      "email": null,
+      "first_name": null,
+      "house_number": null,
+      "last_name": null,
+      "locale": "nl_NL",
+      "phone1": null,
+      "phone2": null,
+      "state": null,
+      "zip_code": null
+    },
+    "description": "Lego cars",
+    "fastcheckout": "NO",
+    "financial_status": "completed",
+    "items": null,
+    "modified": "2024-07-25T14:28:41",
+    "order_id": "12345",
+    "payment_details": {
+      "account_holder_name": "Test",
+      "account_id": null,
+      "authorization_code": "876543",
+      "card_acceptor_id": null,
+      "card_acceptor_location": null,
+      "card_acceptor_name": null,
+      "card_entry_mode": "UNKNOWN",
+      "card_expiry_date": "2502",
+      "external_transaction_id": "234441093",
+      "last4": "0004",
+      "recurring_flow": null,
+      "recurring_id": null,
+      "recurring_model": null,
+      "response_code": "00",
+      "scheme_reference_id": null,
+      "type": "MASTERCARD"
+    },
+    "payment_methods": [
+      {
+        "account_holder_name": "Test",
+        "amount": 1200,
+        "card_expiry_date": "2502",
+        "currency": "EUR",
+        "description": "Lego cars",
+        "external_transaction_id": "234441093",
+        "payment_description": "MasterCard",
+        "status": "completed",
+        "type": "MASTERCARD"
+      }
+    ],
+    "reason": null,
+    "reason_code": null,
+    "related_transactions": null,
+    "status": "completed",
+    "transaction_id": 1721910521100125,
+    "var1": null,
+    "var2": null,
+    "var3": null
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "type": "redirect",
+  "gateway": "IDEAL",
+  "order_id": "order-with-shopping-cart",
+  "currency": "EUR",
+  "amount": 1695,
+  "description": "Order with shopping cart",
+  "payment_options": {
+    "notification_method": "POST",
+    "notification_url": "https://www.example.com/webhooks/payment",
+    "redirect_url": "https://www.example.com/order/success",
+    "cancel_url": "https://www.example.com/order/failed"
+  },
+  "shopping_cart": {
+    "items": [
+      {
+        "weight": {
+          "unit": "G",
+          "value": 120
+        },
+        "name": "Socks",
+        "description": "One pair of black socks",
+        "merchant_item_id": "001-M",
+        "unit_price": 3.305785124,
+        "quantity": 3,
+        "tax_table_selector": "21_percent"
+      },
+      {
+        "name": "Shipping",
+        "description": "Domestic shipping (zone 1)",
+        "merchant_item_id": "msp-shipping",
+        "unit_price": 4.95,
+        "quantity": 1
+      }
+    ]
+  },
+  "checkout_options": {
+    "validate_cart": true,
+    "tax_tables": {
+      "default": {
+        "rate": 0
+      },
+      "alternate": [
+        {
+          "name": "21_percent",
+          "rules": [
+            {
+              "rate": 0.21,
+              "country": "NL"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
